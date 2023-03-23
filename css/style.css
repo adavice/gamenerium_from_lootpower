@@ -44,8 +44,8 @@ body #buttonCode {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	width: min-content;
-	height: min-content;
+	width: 100px;
+	height: 100px;
 	text-align: center;
 	background: #fff;
 	text-shadow: 0 0 5px #fff;
@@ -63,7 +63,7 @@ body #buttonCode svg {
 	fill: var(--secondary);
 	max-width: 100%;
 	height: auto;
-	min-width: 100px;
+	min-width: 70px;
 }
 
 @keyframes lightFlick {
@@ -645,6 +645,7 @@ form .row {
 	background-color: transparent;
 	border: 1px solid var(--bright);
 	border-radius: 0px;
+	color: var(--main-text);
 }
 
 .button:hover {
@@ -2038,14 +2039,22 @@ p.agileits {
 
 /*--events--*/
 .events-left-agile-agileits-ltpwrlayouts {
-	background: url(../images/e1.jpg) no-repeat 0px 0px;
+	background: url(../images/4709150.png), rgba(0, 7, 22, 0.5) no-repeat 0px 0px;
 	background-size: cover;
 	min-height: 400px;
 	padding: 0;
+	background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+	background-blend-mode: darken;
 }
 
 .events-right-agile {
 	padding: 0;
+	display: none;
 }
 
 .events-text-ltpwr-agile {
@@ -3656,7 +3665,7 @@ li>a {
 	}
 
 	.events-left-agile-agileits-ltpwrlayouts {
-		width: 55%;
+		width: 100%;
 		float: left;
 	}
 
