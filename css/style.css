@@ -44,8 +44,8 @@ body #buttonCode {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	width: 100px;
-	height: 100px;
+	width: 85px;
+	height: 85px;
 	text-align: center;
 	background: #fff;
 	text-shadow: 0 0 5px #fff;
@@ -63,7 +63,7 @@ body #buttonCode svg {
 	fill: var(--secondary);
 	max-width: 100%;
 	height: auto;
-	min-width: 70px;
+	min-width: 55px;
 }
 
 @keyframes lightFlick {
