@@ -2039,6 +2039,7 @@ p.agileits {
 
 /*--events--*/
 .events-left-agile-agileits-ltpwrlayouts {
+	width: 100%;
 	background: url(../images/4709150.png), rgba(0, 7, 22, 0.5) no-repeat 0px 0px;
 	background-size: cover;
 	min-height: 400px;
