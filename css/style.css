@@ -2534,7 +2534,7 @@ select {
 	margin-bottom: 10px;
 	background: transparent;
 	outline: none;
-	color: var(--secondary);
+	color: var(--main-text);
 }
 
 .agileits_reply input[name="expMonth"],
